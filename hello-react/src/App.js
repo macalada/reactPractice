@@ -10,11 +10,27 @@ import EventBinding from './components/EventBinding';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
+import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline';
+import './appStyles.css';
+import styles from './appStyles.module.css';
+import Form from './components/Form';
+import LifecycleA from './components/LifecycleA';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
 
 function App() {
   return (
     <div className="App">
-      <NameList/>
+      <Table/>
+      {/* <FragmentDemo/> */}
+      {/* <Form/> */}
+      {/* <LifecycleA/> */}
+      {/* <h1 className='error'>Error here </h1>
+      <h1 className={styles.success}>Hurray success</h1>
+      {/* <NameList/> */} 
+      {/* <Inline/>  */}
+      {/* <Stylesheet primary={true}/> */}
       {/* <UserGreeting/> */}
       {/* <Greet name="Bebana" hobby="eating">
         <p>I am almost two years old and i love to eat !</p>
